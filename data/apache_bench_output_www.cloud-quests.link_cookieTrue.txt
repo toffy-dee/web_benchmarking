@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.cloud-quests.link (be patient)
+
+
+Server Software:        nginx/1.18.0
+Server Hostname:        www.cloud-quests.link
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+Server Temp Key:        ECDH X25519 253 bits
+TLS Server Name:        www.cloud-quests.link
+
+Document Path:          /
+Document Length:        5531 bytes
+
+Concurrency Level:      300
+Time taken for tests:   2.277 seconds
+Complete requests:      300
+Failed requests:        0
+Total transferred:      1781400 bytes
+HTML transferred:       1659300 bytes
+Requests per second:    131.73 [#/sec] (mean)
+Time per request:       2277.399 [ms] (mean)
+Time per request:       7.591 [ms] (mean, across all concurrent requests)
+Transfer rate:          763.88 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      161  660 347.3    568    1435
+Processing:    69  275  96.2    288     784
+Waiting:       56  271  98.3    286     784
+Total:        239  935 354.4    925    2043
+
+Percentage of the requests served within a certain time (ms)
+  50%    925
+  66%   1123
+  75%   1212
+  80%   1260
+  90%   1443
+  95%   1459
+  98%   1497
+  99%   1562
+ 100%   2043 (longest request)

@@ -1,0 +1,11 @@
+# env files
+.env
+
+# beloved mac files
+.DS_Store
+
+# data files
+*/data/*
+
+# miscal
+.python-version
